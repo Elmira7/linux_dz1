@@ -2,7 +2,7 @@ import socket
 from datetime import datetime
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('192.168.56.104', 1706))
+server_socket.bind(('192.168.56.104', 1303))
 server_socket.listen(1)
 print("server start")
 
